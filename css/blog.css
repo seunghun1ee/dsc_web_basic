@@ -1,0 +1,35 @@
+.header {
+    text-align: center;
+}
+
+h1.blog-title {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.article-list {
+    max-width: 750px;
+    margin: 2% auto;
+}
+
+h2.article {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 0.5rem;
+}
+
+small {
+    display: block;
+}
+
+small.article {
+    text-align: center;
+}
+
+img.article {
+    display: block;
+    margin: auto;
+    max-width: 750px;
+    height: auto;
+}
+
