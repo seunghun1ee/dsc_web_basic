@@ -5,51 +5,70 @@
     <title>Profile page example</title>
 </head>
 <body>
-    <h1>Firstname Lastname</h1>
-    <h2>Title</h2>
+    <div id="header">
+        <h1>Firstname Lastname</h1>
+        <h2>Title</h2>
+        <div id="profile_image">
+            <img src="../assets/example_profile_picture.png" height="200" width="200" alt="Example profile picture">
+        </div>
+        <hr>
+    </div>
 
-    <img src="../assets/example_profile_picture.png" height="200" width="200" alt="Example profile picture">
-
-    <h3>About</h3>
-    <p>About me. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sem velit, dictum a lacus sit amet, euismod sodales elit.
-        Donec euismod nisl id dolor facilisis iaculis. Sed at elementum purus, in malesuada leo.
-        Pellentesque efficitur iaculis erat, tincidunt lobortis neque blandit ut. Praesent non posuere justo, ac fringilla neque.
-        Donec ac elit vitae nunc ornare porta ut id tortor.
-        Suspendisse ullamcorper pulvinar tellus a ornare. Fusce interdum lectus justo, at ornare magna sollicitudin quis.
-        Nulla nec enim lacinia, aliquam purus in, tincidunt metus. Vivamus molestie volutpat faucibus.
-        Fusce ac mollis lacus. Curabitur id velit bibendum, scelerisque neque ut, malesuada nibh.
-        Nullam vitae lacus imperdiet, tincidunt dolor vel, eleifend lorem. Morbi gravida ex ac augue porttitor rutrum.
-        Sed dignissim, nisi in blandit tincidunt, arcu purus condimentum dui, eget lacinia elit augue sed felis.</p>
-
-    <h3>Subject 1</h3>
-    <p>Maybe some paragraphs</p>
-    <p>Like this</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sem velit, dictum a lacus sit amet, euismod sodales elit.
-        Donec euismod nisl id dolor facilisis iaculis. Sed at elementum purus, in malesuada leo.
-        Pellentesque efficitur iaculis erat, tincidunt lobortis neque blandit ut. Praesent non posuere justo, ac fringilla neque.
-        Donec ac elit vitae nunc ornare porta ut id tortor.
-        Suspendisse ullamcorper pulvinar tellus a ornare. Fusce interdum lectus justo, at ornare magna sollicitudin quis.
-        Nulla nec enim lacinia, aliquam purus in, tincidunt metus. Vivamus molestie volutpat faucibus.
-        Fusce ac mollis lacus. Curabitur id velit bibendum, scelerisque neque ut, malesuada nibh.
-        Nullam vitae lacus imperdiet, tincidunt dolor vel, eleifend lorem. Morbi gravida ex ac augue porttitor rutrum.
-        Sed dignissim, nisi in blandit tincidunt, arcu purus condimentum dui, eget lacinia elit augue sed felis.</p>
-
-    <h3>Subject 2</h3>
-    <p>What about a list for second subject?</p>
-    <ul>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-    </ul>
-
-    <h3>Subject 3</h3>
-    <p>Let's try connecting other pages by using href</p>
-    <p><a href="#">Example internal link</a></p>
-    <p><a href="https://www.bristol.ac.uk/">Example external link</a></p>
-
-    <h3>Contact</h3>
-    <p>Your contact info such as work email, work phone number, etc</p>
-    <p>Email: <a href="mailto:example@email.com">example@email.com</a></p>
-    <p>Phone: 0207 555 7777</p>
+    <div id="content">
+        <div id="about">
+            <h3>About</h3>
+            <p>About me. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sem velit, dictum a lacus sit amet, euismod sodales elit.
+                Donec euismod nisl id dolor facilisis iaculis. Sed at elementum purus, in malesuada leo.
+                Pellentesque efficitur iaculis erat, tincidunt lobortis neque blandit ut. Praesent non posuere justo, ac fringilla neque.
+                Donec ac elit vitae nunc ornare porta ut id tortor.
+                Suspendisse ullamcorper pulvinar tellus a ornare. Fusce interdum lectus justo, at ornare magna sollicitudin quis.
+                Nulla nec enim lacinia, aliquam purus in, tincidunt metus. Vivamus molestie volutpat faucibus.
+                Fusce ac mollis lacus. Curabitur id velit bibendum, scelerisque neque ut, malesuada nibh.
+                Nullam vitae lacus imperdiet, tincidunt dolor vel, eleifend lorem. Morbi gravida ex ac augue porttitor rutrum.
+                Sed dignissim, nisi in blandit tincidunt, arcu purus condimentum dui, eget lacinia elit augue sed felis.
+            </p>
+            <hr>
+        </div>
+        <div id="subject1">
+            <h3>Subject 1</h3>
+            <p>Maybe some paragraphs</p>
+            <p>Like this</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sem velit, dictum a lacus sit amet, euismod sodales elit.
+                Donec euismod nisl id dolor facilisis iaculis. Sed at elementum purus, in malesuada leo.
+                Pellentesque efficitur iaculis erat, tincidunt lobortis neque blandit ut. Praesent non posuere justo, ac fringilla neque.
+                Donec ac elit vitae nunc ornare porta ut id tortor.
+                Suspendisse ullamcorper pulvinar tellus a ornare. Fusce interdum lectus justo, at ornare magna sollicitudin quis.
+                Nulla nec enim lacinia, aliquam purus in, tincidunt metus. Vivamus molestie volutpat faucibus.
+                Fusce ac mollis lacus. Curabitur id velit bibendum, scelerisque neque ut, malesuada nibh.
+                Nullam vitae lacus imperdiet, tincidunt dolor vel, eleifend lorem. Morbi gravida ex ac augue porttitor rutrum.
+                Sed dignissim, nisi in blandit tincidunt, arcu purus condimentum dui, eget lacinia elit augue sed felis.
+            </p>
+            <hr>
+        </div>
+        <div id="subject2">
+            <h3>Subject 2</h3>
+            <p>What about a list for second subject?</p>
+            <ul>
+                <li>item</li>
+                <li>item</li>
+                <li>item</li>
+            </ul>
+            <hr>
+        </div>
+        <div id="subject3">
+            <h3>Subject 3</h3>
+            <p>Let's try connecting other pages by using href</p>
+            <p><a href="#">Example internal link</a></p>
+            <p><a href="https://www.bristol.ac.uk/">Example external link</a></p>
+            <hr>
+        </div>
+        <div id="contact">
+            <h3>Contact</h3>
+            <p>Your contact info such as work email, work phone number, etc</p>
+            <p>Email: <a href="mailto:example@email.com">example@email.com</a></p>
+            <p>Phone: 0207 555 7777</p>
+            <hr>
+        </div>
+    </div>
 </body>
 </html>
