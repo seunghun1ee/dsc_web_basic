@@ -1,21 +1,34 @@
+body {
+    margin: 0;
+}
+
 .header {
     text-align: center;
+    background: darkblue;
+    color: white;
+
 }
 
 h1.blog-title {
     font-size: 3rem;
+    margin-top: 0;
     margin-bottom: 0.5rem;
+}
+
+p.blog-title {
+    margin-bottom: 0;
 }
 
 .article-list {
     max-width: 750px;
-    margin: 2% auto;
+    margin: 0 auto;
 }
 
 h2.article {
     text-align: center;
     font-size: 2em;
     margin-bottom: 0.5rem;
+    margin-top: 0;
 }
 
 small {
@@ -32,4 +45,9 @@ img.article {
     max-width: 750px;
     height: auto;
 }
+
+.content-background {
+    background: ghostwhite;
+}
+
 
