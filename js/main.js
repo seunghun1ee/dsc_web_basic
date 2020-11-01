@@ -14,3 +14,8 @@ function textColourChange() {
     var b = Math.floor(Math.random() * 256).toString(16);
     document.getElementById("targetText").style.color = "#"+r+g+b;
 }
+
+function textSizeChange() {
+    document.getElementById("smallText").style.fontSize = "4rem";
+    document.getElementById("smallText").style.fontStyle = "italic";
+}
