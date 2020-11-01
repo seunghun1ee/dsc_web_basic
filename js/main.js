@@ -19,3 +19,15 @@ function textSizeChange() {
     document.getElementById("smallText").style.fontSize = "4rem";
     document.getElementById("smallText").style.fontStyle = "italic";
 }
+
+function hideElement(id) {
+    document.getElementById(id).style.display = "none";
+}
+
+function showElement(id) {
+    document.getElementById(id).style.display = "block";
+}
+
+function outputToHtmlElement(target,output) {
+    document.getElementById(target).innerHTML = output.toString();
+}
