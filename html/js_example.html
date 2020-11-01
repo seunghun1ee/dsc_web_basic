@@ -5,8 +5,19 @@
     <title>JavaScript example</title>
 </head>
 <body>
-    <button type="button" onclick="helloWorld()">Click me</button>
-    <p id="helloWorld"></p>
+    <div>
+        <button type="button" onclick="helloWorld()">Click me</button>
+        <p id="helloWorld"></p>
+    </div>
+    <div>
+        <button type="button" onclick="biggerImage()">Make it bigger</button>
+        <br>
+        <img id="smallImage" src="https://via.placeholder.com/100x100" width="100" height="100">
+    </div>
+    <div>
+        <button type="button" onclick="textColourChange()">Change text colour</button>
+        <p id="targetText">Colour</p>
+    </div>
     <script src="../js/main.js"></script>
 </body>
 </html>
