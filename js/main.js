@@ -1,4 +1,3 @@
-function hello() {
-    var name = document.getElementById("inputName");
-    alert("hello " + name.value);
+function helloWorld() {
+    document.getElementById("helloWorld").innerHTML = "Hello world!";
 }
